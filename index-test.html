@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+    <link rel="stylesheet" href="https://use.typekit.net/dzk8uhs.css">
+    <style>
+        /* global */
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            line-height: 38px;
+            font-family: ysans-std, sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            color: #004751
+        }
+        .container {
+            display: grid;
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+
+        .content{
+            padding: 10% 10% 0 0;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+        /* top-intro section */
+        .introduction {
+            background-image: 
+                url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNDc0IDEwNDMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0NzQgMTA0MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiMwMDQ3NTE7fQoJLnN0MXtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM0Q0JFQTA7fQo8L3N0eWxlPgo8ZyBpZD0iSG9tZXBhZ2UiPgoJPGcgaWQ9IkRlc2t0b3AtLS1Ib21lcGFnZS1CIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNy4wMDAwMDAsIDAuMDAwMDAwKSI+CgkJPGcgaWQ9Ikdyb3VwLTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNy4wMDAwMDAsIDAuMDAwMDAwKSI+CgkJCTxwb2x5Z29uIGlkPSJQYXRoLTYiIGNsYXNzPSJzdDAiIHBvaW50cz0iMTE2OSw3NTQgMCwxMDQzIDE0NzMuNSwxMDQzIAkJCSIvPgoJCQk8cG9seWdvbiBpZD0iUGF0aC01IiBjbGFzcz0ic3QxIiBwb2ludHM9IjE0NzQsMCAxMTY5LDc1NCAxNDc0LDEwNDMgCQkJIi8+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            margin: 0;
+            width: 100vw;
+        }
+        .two-column{
+            grid-template-columns: 50% 50%;
+        }
+        .hero{
+        }
+
+        /* why section */
+        .why-us-one{
+            background-image: 
+                url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTQ0MHB4IiBoZWlnaHQ9Ijc5NHB4IiB2aWV3Qm94PSIwIDAgMTQ0MCA3OTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UmVjdGFuZ2xlPC90aXRsZT4KICAgIDxnIGlkPSJIb21lcGFnZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkRlc2t0b3AtLS1Ib21lcGFnZS1CLS0tbWVudS1vcGVuIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgLTEwNDEuMDAwMDAwKSIgZmlsbD0iI0ZGRjBDMSI+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJSZWN0YW5nbGUiIHBvaW50cz0iMCAxMDQxIDE0NDAgMTA0MyA3OTAgMTY3MCAwIDE4MzUiPjwvcG9seWdvbj4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center left;
+            width: 100vw;
+            height: auto;            
+        }
+
+        .why-us-two{
+            background-image: 
+                url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTQ0MHB4IiBoZWlnaHQ9IjkxOHB4IiB2aWV3Qm94PSIwIDAgMTQ0MCA5MTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UGF0aCA0PC90aXRsZT4KICAgIDxnIGlkPSJIb21lcGFnZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkRlc2t0b3AtLS1Ib21lcGFnZS1CLS0tbWVudS1vcGVuIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgLTE2NzAuMDAwMDAwKSIgZmlsbD0iIzAwNDc1MSI+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoLTQiIHBvaW50cz0iNzkwIDE2NzAgMTQ0MCAyMTA1LjUgMTQ0MCAyNTg4IDAgMjU4OCAwIDE4MzUiPjwvcG9seWdvbj4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top left;
+            width: 100vw;
+            height: auto;
+        }
+
+
+        /* fonts */
+        .intro {
+            /* font-size: 120px; */
+            font-size: calc(14px + (100 - 14) * ((100vw - 300px) / (1250 - 30)));
+            font-weight: 700;
+            line-height: calc(14px + (100 - 14) * ((100vw - 300px) / (1250 - 30)));
+            margin: 0;
+        }
+
+        /* header */
+        header{
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            /* max-width: 1250px; */
+            margin: 44px;
+        }
+
+        .menu{
+            position: fixed;
+            top: 40px;
+            right: 40px;
+        }
+
+
+        .carousel-image{
+            position: absolute;
+            width: 900px;
+            right: -100px;
+        }
+
+        .guy-image{
+            position: absolute;
+            max-width: 48%;
+            left: 0;
+        }
+        .with-dude{
+            justify-self: end;
+        }
+
+
+
+    </style>
+
+<body>
+    <header>
+        <a href="#"><img src="img/logo.svg" alt="Luminis Health"></a>
+        <a href="#" class="menu">MENU</a>
+    </header>
+    <section class="introduction">
+        <div class="two-column container">
+            <img src="img/lady.png" alt="lady" class="hero">
+            <div>
+                <h1 class="intro">Hello, bright future</h1>
+                <p>Introducing Luminis Health, your lorem ipsum dolet for a commodo consequat.</p>
+            </div>
+        </div>
+    </section>
+    <section class="why-us-one">
+        <div class="two-column container">
+            <div class="content">
+                <h2>Why this should matter to you headline</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="content carousel">
+                <img src="img/park-bench.png" alt="park bench illustration" class="carousel-image">
+            </div>
+        </div>
+    </section>
+    <section class="why-us-two">
+            <div class="two-column container">
+                <div class="content carousel">
+                    <img src="img/dude.png" alt="park bench illustration" class="guy-image">
+                </div>
+                <div class="content">
+                    <h2>Why this should matter to you headline</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>    
+</body>
+
+</html>
+
+
+
+
+        <!-- <div class="two-column container with-dude">
+                <div>
+                    <img src="img/dude.png" alt="dude" class="guy-image">
+                </div>
+                <div class="content">
+                    <h2>Why this should matter to you headline</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>                
+            </div>         -->
